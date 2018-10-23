@@ -20,8 +20,8 @@ public class CustomAdapter extends ArrayAdapter<DataItem> {
     List<DataItem> data=null;
 
 
-    public CustomAdapter(Context context, int resource, int textViewResourceId, List<DataItem> objects) {
-        super(context, resource, textViewResourceId, objects);
+    public CustomAdapter(Context context, int resource, List<DataItem> objects) {
+        super(context, resource, objects);
 
         this.layoutResourceId = resource;
         this.context =context;
