@@ -43,7 +43,7 @@ public class CustomAdapter extends ArrayAdapter<DataItem> {
         if(convertView==null) {
             LayoutInflater inflater = ((Activity) context).getLayoutInflater();
 
-            convertView = inflater.inflate(layoutResourceId, parent);
+            convertView = inflater.inflate(layoutResourceId, parent, false);
 
             holder = new DataHolder();
             holder.ivPhoto = (ImageView)convertView.findViewById(R.id.ivIcon);

@@ -20,14 +20,24 @@ public class MainActivity extends AppCompatActivity {
 
         lstData =new ArrayList<>();
 
-        lstData.add(new DataItem(R.drawable.picasso,"Picasso", "Picasso"));
-        lstData.add(new DataItem(R.drawable.picasso,"Picasso", "Picasso"));
-        lstData.add(new DataItem(R.drawable.picasso,"Picasso", "Picasso"));
-        lstData.add(new DataItem(R.drawable.picasso,"Picasso", "Picasso"));
-        lstData.add(new DataItem(R.drawable.picasso,"Picasso", "Picasso"));
-        lstData.add(new DataItem(R.drawable.picasso,"Picasso", "Picasso"));
-        lstData.add(new DataItem(R.drawable.picasso,"Picasso", "Picasso"));
-        lstData.add(new DataItem(R.drawable.picasso,"Picasso", "Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+        lstData.add(new DataItem(R.drawable.picasso,"Picasso was a great artist", "Pablo Picasso"));
+
+
 
         ListView listView =(ListView)findViewById(R.id.listView);
 
